@@ -1,0 +1,31 @@
+{
+    "cli":{
+        "tournament":"round-robin",
+        "games":"2",
+        "rounds":"1",
+        "concurrency":"1",
+        "repeat":"2",
+        "pgnout":"output.pgn",
+        "debug":"false",
+        "recover":"true",
+        "draw":{
+            "movenumber":"100",
+            "movecount":"3",
+            "score":"500"
+        },
+        "resign":{
+            "movecount":"2",
+            "score":"500"
+        },
+        "each":{
+            "proto":"uci",
+            "timemargin":"",
+            "st":"",
+            "tc":"1+1",
+            "book":"Perfect2017.bin",
+            "bookdepth":"8"
+        }
+    },
+    "Threads":"6",
+    "tablebases":""
+}
